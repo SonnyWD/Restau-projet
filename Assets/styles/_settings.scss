@@ -1,4 +1,38 @@
+$color1: #a16f44;
+$color2: #88857f;
+$white: rgb(248, 248, 248);
+$black: rgb(12, 12, 12);
+
+@font-face {
+    font-family: "Allura";
+    src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf);
+}
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #21201e;
+    color: $white;
+    font-family: Roboto, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: $white;
+}
+.titre-marron {
+    font-family: Allura;
+    color: $color1;
 }
