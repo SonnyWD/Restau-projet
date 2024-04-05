@@ -1,0 +1,160 @@
+.section1 {
+    display: flex;
+    height: 60vh;
+    text-align: center;
+    @media screen and (max-width:900px) {
+                   flex-direction: column;  
+                   height: 100%;      
+    }
+    @media screen and (max-width:600px) {
+        height: 70vh;      
+}
+    .section1-left {
+        width: 50%;
+        background-color: $white;
+        padding: 10px;
+        @media screen and (max-width:900px) {
+            flex-direction: column;  
+            height: 100%; 
+            width: 100%;    
+}
+        .border-dash {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px dashed $color1;
+            height: 100%;                
+        h2 {
+            margin-bottom: 1rem;
+            .titre-marron {
+                color: $color1;
+                font-family: Allura;
+            }
+            .store {
+                font-family: Poppins;
+                color:$black;
+            }
+        }
+        p {
+            color: $black;
+            width: 90%;
+            margin-bottom: 1.5rem;
+        }
+        .img-chef1 {
+            width: 80px;
+            height: 80px;
+            background: url(/Assets/img/avatar-01.jpg) center/cover;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+        }
+        .Russel {
+            font-weight: 700;
+            font-family: Poppins;
+            margin-bottom: 0;
+        }
+        .Chef {
+            color: $color2;
+            font-family: Poppins;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        }
+    }
+    .section1-right {
+        width: 50%;
+        @media screen and (max-width:900px) {
+            flex-direction: column;  
+            height: 100%; 
+            width: 100%;    
+}
+@media screen and (max-width:600px) {
+    display: none;   
+}
+        .img-section1-right {
+                    img {
+                        height: 60vh;
+                        width: 100%;
+                        object-fit: cover;
+                        background-position: center;
+                        background-size: cover;
+                    }
+        }
+    }
+}
+.section2 {
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    .container-section2 {
+        .titre-marron {
+            font-size: 2rem;
+            margin: 2rem auto;
+        }
+        ul {
+            display: flex;
+            max-width: 1000px;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            li {
+                a {
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid $color2;
+                }
+            }
+        }
+        .menus {
+            margin: 3rem auto;
+            max-width: 1100px;
+            background-color: rgb(245, 245, 245);
+            color:$black;
+            padding: 2rem 1rem;
+            display: grid;
+            grid-template-columns: 48% 48%;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            grid-template-rows: repeat(4, 1fr);
+            border-top: 5px solid $color1;
+            .rangements {
+                display: grid;
+                grid-template-columns: 20% 60% 20%;
+                justify-items: start;
+                align-items: center;
+                border-bottom: 1px dashed $color1;
+                padding: 1rem 0;
+                gap: 20px;
+                width: 90%;
+                text-align: left;
+                .menu-img1 {
+                    border-radius: 50%;
+                }
+                div {
+                    h3 {
+                        text-transform: uppercase;
+                        font-size: 1rem;
+                        margin-bottom: 7px;
+                    }
+                    ~ p {
+                        font-weight: 700;
+                        font-size:1.2rem;
+                        color: $color1;
+                    }
+                }
+               
+
+            }
+        }
+    }
+    #bg-section2 {
+            position: absolute;
+            bottom: -10%;
+            left:0;
+            height: 70vh;
+            object-fit: cover;
+            width: 100%;
+            z-index: -1;
+    }
+}

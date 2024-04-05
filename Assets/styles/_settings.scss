@@ -1,6 +1,6 @@
 $color1: #a16f44;
 $color2: #88857f;
-$white: rgb(248, 248, 248);
+$white: rgb(231, 231, 231);
 $black: rgb(12, 12, 12);
 
 @font-face {
@@ -35,4 +35,10 @@ a {
 .titre-marron {
     font-family: Allura;
     color: $color1;
+}
+.logo2 {
+    width: 50px;
+    height: 50px;
+    background: url(/Assets/img/ic-plate.png) center/cover;
+    margin: 0 auto 1.5rem;
 }
