@@ -31,6 +31,9 @@ li {
 a {
     text-decoration: none;
     color: $white;
+    &:hover {
+        color:$color1;
+    }
 }
 .titre-marron {
     font-family: Allura;
