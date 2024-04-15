@@ -43,7 +43,7 @@ a:hover {
 .logo2 {
   width: 50px;
   height: 50px;
-  background: url(/Assets/img/ic-plate.png) center/cover;
+  background: url(../img/ic-plate.png) center/cover;
   margin: 0 auto 1.5rem;
 }
 
@@ -103,7 +103,7 @@ header .container-txt h1 .restau {
 header .container-txt .img-logo {
   width: 50px;
   height: 50px;
-  background: url(/Assets/img/ic-plate-big.png) center/cover;
+  background: url(../img/ic-plate-big.png) center/cover;
   margin: 1rem auto;
 }
 @media screen and (max-width: 600px) {
@@ -268,7 +268,7 @@ nav .nav-right {
 .section1 .section1-left .border-dash .img-chef1 {
   width: 80px;
   height: 80px;
-  background: url(/Assets/img/avatar-01.jpg) center/cover;
+  background: url(../img/avatar-01.jpg) center/cover;
   border-radius: 50%;
   margin-bottom: 1.5rem;
 }
@@ -697,7 +697,7 @@ nav .nav-right {
   grid-template-columns: 40% 60%;
 }
 .section4 .section4-container-children .child1 .img-chidren, .section4 .section4-container-children .child2 .img-chidren, .section4 .section4-container-children .child3 .img-chidren {
-  background: url(/Assets/img/event-01.jpg) center/cover;
+  background: url(../img/event-01.jpg) center/cover;
   height: 200px;
   width: 100%;
   display: -webkit-box;
@@ -785,11 +785,11 @@ nav .nav-right {
   grid-area: b;
 }
 .section4 .section4-container-children .child2 .img-chidren {
-  background: url(/Assets/img/event-02.jpg) center/cover;
+  background: url(../img/event-02.jpg) center/cover;
 }
 .section4 .section4-container-children .child3 {
   grid-area: c;
-  background: url(/Assets/img/event-03.jpg) center/cover;
+  background: url(../img/event-03.jpg) center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
