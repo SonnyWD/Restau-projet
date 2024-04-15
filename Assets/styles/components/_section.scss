@@ -510,12 +510,9 @@
     }
 }
 .section5 {
-    background-color: $white;
     color:$black;
-    max-width: 1300px;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 5rem;
+    margin: 0 auto 10%;
+    margin-top: 8rem;
     text-align: center;
     position: relative;
     display: flex;
@@ -532,7 +529,8 @@
         }
     }
     .ceo {
-        width: 70%;
+        background-color: $white;
+        max-width: 1300px;
         p {
             line-height: 35px;
             font-size: 1.1rem;
@@ -551,5 +549,17 @@
             margin-bottom: 1.2rem;
         }
         
+    }
+    .google {
+        position: absolute;
+        bottom: -70%;
+        left:0;
+        height: 40vh;
+        object-fit: cover;
+        width: 100%;
+        z-index: -1;
+        @media screen and (max-width: 900px) {
+            display: none;
+        }
     }
 }
